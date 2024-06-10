@@ -17,8 +17,8 @@ fn gcd_extended_algorithm(a: i32, b: i32) -> (i32, i32, i32) {
 }
 
 fn main() {
-    let a = 56;
-    let b = 98;
+    let a = 2024;
+    let b = 748;
     let (g, u, v) = gcd_extended_algorithm(a, b);
     println!("gcd({}, {}) = {}", a, b, g);
     println!("Solution to {}u + {}v = {} is (u, v) = ({}, {})", a, b, g, u, v);
